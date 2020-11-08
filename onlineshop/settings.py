@@ -162,6 +162,8 @@ S3_URL = 'https://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 STATIC_URL = S3_URL
 
 
+#
+
 # CORS settings
 CORS_ORIGIN_ALLOW_ALL = True
 

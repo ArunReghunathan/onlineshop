@@ -1,0 +1,31 @@
+# Python Compiled Files
+*.pyc
+*settings.py
+*onlineshop/settings.py
+onlineshop/settings.py
+
+
+# Git related files
+*.orig
+
+# Environment Related Files
+.idea/
+lib/
+bin/
+local/
+logs/
+django-mongoadmin/
+djcelery/
+include/
+pip-uninstall
+share/
+
+Logs Files
+*.log
+
+
+pip-selfcheck.json
+src/apps/certificates/libraries/faces/
+src/npm-debug.log
+audio.wav
+celerybeat-schedule
