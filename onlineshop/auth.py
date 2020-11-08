@@ -165,3 +165,5 @@ def check_same_user(request, idUser):
     if str(request.user.id) != str(idUser):
         raise ValueError("403 Forbidden")
 
+
+# end
