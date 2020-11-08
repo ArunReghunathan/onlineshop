@@ -154,9 +154,7 @@ STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 AWS_S3_SECURE_URLS = True       # use http instead of https
 AWS_QUERYSTRING_AUTH = False     # don't add complex authentication-related query parameters for requests
-#
-# AWS_S3_ACCESS_KEY_ID = 'AKIAQUE737VWBCJPU74D'     # enter your access key id
-# AWS_S3_SECRET_ACCESS_KEY = 'Po6E9PYAxl3uGB38Cnb2e7c/a0w9NiUzyOU1wsEp'   # enter your secret
+
 AWS_S3_ACCESS_KEY_ID = ' '     # enter your access key id
 AWS_S3_SECRET_ACCESS_KEY = ' '   # enter your secret
 AWS_STORAGE_BUCKET_NAME = ' '
